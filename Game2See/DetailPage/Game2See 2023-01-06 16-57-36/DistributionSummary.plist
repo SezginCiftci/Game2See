@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Game2See.ipa</key>
+	<array>
+		<dict>
+			<key>architectures</key>
+			<array>
+				<string>arm64</string>
+			</array>
+			<key>bitcode</key>
+			<true/>
+			<key>buildNumber</key>
+			<string>1</string>
+			<key>certificate</key>
+			<dict>
+				<key>SHA1</key>
+				<string>93E7B30B002B8C234F1F88C3E6F882DD6A1A7694</string>
+				<key>dateExpires</key>
+				<string>6.01.2024</string>
+				<key>type</key>
+				<string>Cloud Managed Apple Distribution</string>
+			</dict>
+			<key>entitlements</key>
+			<dict>
+				<key>application-identifier</key>
+				<string>2K6R4XFXZB.SezginCiftci.Game2See</string>
+				<key>beta-reports-active</key>
+				<true/>
+				<key>com.apple.developer.team-identifier</key>
+				<string>2K6R4XFXZB</string>
+				<key>get-task-allow</key>
+				<false/>
+			</dict>
+			<key>name</key>
+			<string>Game2See.app</string>
+			<key>profile</key>
+			<dict>
+				<key>UUID</key>
+				<string>88344873-037b-4be2-9afb-293c4ecbc985</string>
+				<key>dateExpires</key>
+				<string>6.01.2024</string>
+				<key>name</key>
+				<string>iOS Team Store Provisioning Profile: SezginCiftci.Game2See</string>
+			</dict>
+			<key>symbols</key>
+			<true/>
+			<key>team</key>
+			<dict>
+				<key>id</key>
+				<string>2K6R4XFXZB</string>
+				<key>name</key>
+				<string>Sezgin Ciftci</string>
+			</dict>
+			<key>versionNumber</key>
+			<string>0.1.0</string>
+		</dict>
+	</array>
+</dict>
+</plist>
