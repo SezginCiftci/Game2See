@@ -7,18 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C44670422968331800BB795F /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C44670412968331800BB795F /* Launch Screen.storyboard */; };
 		C48DED09295D70F100B0D253 /* Game2SeeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C48DED08295D70F100B0D253 /* Game2SeeApp.swift */; };
 		C48DED0B295D70F100B0D253 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C48DED0A295D70F100B0D253 /* ContentView.swift */; };
 		C48DED0D295D70F200B0D253 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C48DED0C295D70F200B0D253 /* Assets.xcassets */; };
 		C48DED10295D70F200B0D253 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C48DED0F295D70F200B0D253 /* Preview Assets.xcassets */; };
+		C48DED17295D796800B0D253 /* MainResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C48DED16295D796800B0D253 /* MainResponseModel.swift */; };
+		C48DED19295D79A100B0D253 /* ConstantsApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = C48DED18295D79A100B0D253 /* ConstantsApi.swift */; };
+		C48DED1B295D9AAC00B0D253 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = C48DED1A295D9AAC00B0D253 /* Service.swift */; };
+		C48DED1E295DAA8200B0D253 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = C48DED1D295DAA8200B0D253 /* Kingfisher */; };
+		C48DED20295DADAE00B0D253 /* Date+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C48DED1F295DADAE00B0D253 /* Date+Extension.swift */; };
+		C48DED22295DB79700B0D253 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C48DED21295DB79700B0D253 /* ViewModel.swift */; };
+		C48DED24295DC0DE00B0D253 /* DetailResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C48DED23295DC0DE00B0D253 /* DetailResponseModel.swift */; };
+		C48DED2C295DC26E00B0D253 /* DetailPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C48DED2B295DC26E00B0D253 /* DetailPage.swift */; };
+		C4F93E2B295ED3CF0052A6B2 /* UIApplication+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4F93E2A295ED3CF0052A6B2 /* UIApplication+Extension.swift */; };
+		C4F93E2F295EDA4A0052A6B2 /* DetailWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4F93E2E295EDA4A0052A6B2 /* DetailWebView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C44670412968331800BB795F /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		C48DED05295D70F100B0D253 /* Game2See.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Game2See.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C48DED08295D70F100B0D253 /* Game2SeeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game2SeeApp.swift; sourceTree = "<group>"; };
 		C48DED0A295D70F100B0D253 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C48DED0C295D70F200B0D253 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C48DED0F295D70F200B0D253 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C48DED16295D796800B0D253 /* MainResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainResponseModel.swift; sourceTree = "<group>"; };
+		C48DED18295D79A100B0D253 /* ConstantsApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstantsApi.swift; sourceTree = "<group>"; };
+		C48DED1A295D9AAC00B0D253 /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		C48DED1F295DADAE00B0D253 /* Date+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extension.swift"; sourceTree = "<group>"; };
+		C48DED21295DB79700B0D253 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		C48DED23295DC0DE00B0D253 /* DetailResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailResponseModel.swift; sourceTree = "<group>"; };
+		C48DED2B295DC26E00B0D253 /* DetailPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailPage.swift; sourceTree = "<group>"; };
+		C4F93E2A295ED3CF0052A6B2 /* UIApplication+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIApplication+Extension.swift"; sourceTree = "<group>"; };
+		C4F93E2E295EDA4A0052A6B2 /* DetailWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailWebView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +47,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C48DED1E295DAA8200B0D253 /* Kingfisher in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,7 +74,14 @@
 			isa = PBXGroup;
 			children = (
 				C48DED08295D70F100B0D253 /* Game2SeeApp.swift */,
-				C48DED0A295D70F100B0D253 /* ContentView.swift */,
+				C48DED2A295DC16700B0D253 /* Constants */,
+				C48DED27295DC13E00B0D253 /* Model */,
+				C48DED28295DC14A00B0D253 /* Extension+ */,
+				C48DED29295DC15B00B0D253 /* Service */,
+				C4B32E2A296446600072951D /* ViewModel */,
+				C4B32E2B2964468A0072951D /* HomePage */,
+				C4B32E2C296446A10072951D /* DetailPage */,
+				C44670412968331800BB795F /* Launch Screen.storyboard */,
 				C48DED0C295D70F200B0D253 /* Assets.xcassets */,
 				C48DED0E295D70F200B0D253 /* Preview Content */,
 			);
@@ -65,6 +94,65 @@
 				C48DED0F295D70F200B0D253 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C48DED27295DC13E00B0D253 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C48DED16295D796800B0D253 /* MainResponseModel.swift */,
+				C48DED23295DC0DE00B0D253 /* DetailResponseModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C48DED28295DC14A00B0D253 /* Extension+ */ = {
+			isa = PBXGroup;
+			children = (
+				C48DED1F295DADAE00B0D253 /* Date+Extension.swift */,
+				C4F93E2A295ED3CF0052A6B2 /* UIApplication+Extension.swift */,
+			);
+			path = "Extension+";
+			sourceTree = "<group>";
+		};
+		C48DED29295DC15B00B0D253 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				C48DED1A295D9AAC00B0D253 /* Service.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		C48DED2A295DC16700B0D253 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				C48DED18295D79A100B0D253 /* ConstantsApi.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		C4B32E2A296446600072951D /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				C48DED21295DB79700B0D253 /* ViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		C4B32E2B2964468A0072951D /* HomePage */ = {
+			isa = PBXGroup;
+			children = (
+				C48DED0A295D70F100B0D253 /* ContentView.swift */,
+			);
+			path = HomePage;
+			sourceTree = "<group>";
+		};
+		C4B32E2C296446A10072951D /* DetailPage */ = {
+			isa = PBXGroup;
+			children = (
+				C48DED2B295DC26E00B0D253 /* DetailPage.swift */,
+				C4F93E2E295EDA4A0052A6B2 /* DetailWebView.swift */,
+			);
+			path = DetailPage;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +171,9 @@
 			dependencies = (
 			);
 			name = Game2See;
+			packageProductDependencies = (
+				C48DED1D295DAA8200B0D253 /* Kingfisher */,
+			);
 			productName = Game2See;
 			productReference = C48DED05295D70F100B0D253 /* Game2See.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +202,9 @@
 				Base,
 			);
 			mainGroup = C48DECFC295D70F100B0D253;
+			packageReferences = (
+				C48DED1C295DAA8200B0D253 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
 			productRefGroup = C48DED06295D70F100B0D253 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -125,6 +219,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C44670422968331800BB795F /* Launch Screen.storyboard in Resources */,
 				C48DED10295D70F200B0D253 /* Preview Assets.xcassets in Resources */,
 				C48DED0D295D70F200B0D253 /* Assets.xcassets in Resources */,
 			);
@@ -137,8 +232,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C48DED22295DB79700B0D253 /* ViewModel.swift in Sources */,
+				C48DED19295D79A100B0D253 /* ConstantsApi.swift in Sources */,
 				C48DED0B295D70F100B0D253 /* ContentView.swift in Sources */,
+				C48DED1B295D9AAC00B0D253 /* Service.swift in Sources */,
+				C48DED17295D796800B0D253 /* MainResponseModel.swift in Sources */,
+				C4F93E2F295EDA4A0052A6B2 /* DetailWebView.swift in Sources */,
 				C48DED09295D70F100B0D253 /* Game2SeeApp.swift in Sources */,
+				C48DED2C295DC26E00B0D253 /* DetailPage.swift in Sources */,
+				C48DED20295DADAE00B0D253 /* Date+Extension.swift in Sources */,
+				C4F93E2B295ED3CF0052A6B2 /* UIApplication+Extension.swift in Sources */,
+				C48DED24295DC0DE00B0D253 /* DetailResponseModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,6 +377,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -302,6 +407,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -339,6 +445,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C48DED1C295DAA8200B0D253 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C48DED1D295DAA8200B0D253 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C48DED1C295DAA8200B0D253 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = C48DECFD295D70F100B0D253 /* Project object */;
 }
